@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallTail.Asf.BigInventoryFixer", "SmallTail.Asf.BigInventoryFixer\SmallTail.Asf.BigInventoryFixer.csproj", "{0E4EA8E3-2348-4E07-8D09-5217A2063414}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECA4265E-0EC2-4A39-8205-D7CDBEAE0C6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E4EA8E3-2348-4E07-8D09-5217A2063414} = {ECA4265E-0EC2-4A39-8205-D7CDBEAE0C6C}
+	EndGlobalSection
+EndGlobal
