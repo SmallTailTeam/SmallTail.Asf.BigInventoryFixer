@@ -24,9 +24,9 @@ public class InventoryFixMethods
             {"goo_denomination_out", "1000"},
             {"goo_amount_out_expected", "1"}
         };
-                
+        
         var response = await bot.ArchiWebHandler.UrlPostWithSession(
-            new Uri("https://steamcommunity.com/my/ajaxexchangegoo/"), 
+            new Uri($"https://steamcommunity.com/profiles/{bot.SteamID}/ajaxexchangegoo"), 
             data: data,
             session: ArchiWebHandler.ESession.Lowercase);
 
@@ -56,7 +56,7 @@ public class InventoryFixMethods
         };
                 
         var response = await bot.ArchiWebHandler.UrlPostWithSession(
-            new Uri("https://steamcommunity.com/my/ajaxexchangegoo/"), 
+            new Uri($"https://steamcommunity.com/profiles/{bot.SteamID}/ajaxexchangegoo"), 
             data: data,
             session: ArchiWebHandler.ESession.Lowercase);
         
