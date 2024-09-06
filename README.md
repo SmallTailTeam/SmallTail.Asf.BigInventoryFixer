@@ -8,4 +8,4 @@ These methods proved to be fixing big inventories of having phantom items.
 
 ### Commands
 
-`fixinventory` `[Bots]` - Fixes inventory with the first appplicable method
+- `fixinventory` `[Bots]` - Fixes inventory with the first appplicable method
