@@ -1,11 +1,11 @@
-### What exactly does this do
+### Explanation
 
 Currently, these are the fix methods are being attempted
 - Gem sack unpacking 
 - Gem sack packing
 
-These methods proved to be working ways of fixing big inventories when they have phantom items.
+These methods proved to be fixing big inventories of having phantom items.
 
-### Usage
+### Commands
 
-`fixinventory [Bots]` - Fixes inventory with the first appplicable method
+`fixinventory` `[Bots]` - Fixes inventory with the first appplicable method
