@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallTail.Asf.BigInventoryF
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{ECA4265E-0EC2-4A39-8205-D7CDBEAE0C6C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "submodules", "submodules", "{B8A6A160-4EC9-44E9-85E8-8100F40D296A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchiSteamFarm", "ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj", "{38B19325-430A-483D-8AE2-DB180557423D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +18,13 @@ Global
 		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4EA8E3-2348-4E07-8D09-5217A2063414}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B19325-430A-483D-8AE2-DB180557423D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B19325-430A-483D-8AE2-DB180557423D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B19325-430A-483D-8AE2-DB180557423D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B19325-430A-483D-8AE2-DB180557423D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0E4EA8E3-2348-4E07-8D09-5217A2063414} = {ECA4265E-0EC2-4A39-8205-D7CDBEAE0C6C}
+		{38B19325-430A-483D-8AE2-DB180557423D} = {B8A6A160-4EC9-44E9-85E8-8100F40D296A}
 	EndGlobalSection
 EndGlobal

@@ -1,28 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
+        <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <DebugType>embedded</DebugType>
     </PropertyGroup>
 
     <ItemGroup>
-      <Reference Include="ArchiSteamFarm">
-        <HintPath>..\Dependencies\ArchiSteamFarm.dll</HintPath>
-      </Reference>
-      <Reference Include="protobuf-net">
-        <HintPath>..\Dependencies\protobuf-net.dll</HintPath>
-      </Reference>
-      <Reference Include="protobuf-net.Core">
-        <HintPath>..\Dependencies\protobuf-net.Core.dll</HintPath>
-      </Reference>
-      <Reference Include="SteamKit2">
-        <HintPath>..\Dependencies\SteamKit2.dll</HintPath>
-      </Reference>
-      <Reference Include="System.Composition.AttributedModel">
-        <HintPath>..\Dependencies\System.Composition.AttributedModel.dll</HintPath>
-      </Reference>
+      <ProjectReference Include="..\ArchiSteamFarm\ArchiSteamFarm\ArchiSteamFarm.csproj" />
     </ItemGroup>
 
 </Project>
